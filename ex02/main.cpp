@@ -3,9 +3,8 @@
 
 int main()
 {
-	Base *p = generate();
-	identify(p);
-	std::cout << "--------------------\n";
-	identify(*p);
-	delete p;
+	Base *b = generate();
+	identify(b);
+	identify(*b);
+	delete b;
 }
